@@ -4,9 +4,5 @@ plotly
 matplotlib
 joblib
 numpy
-math
-os
-sklearn
+scikit - learn
 seaborn
-plotly
-base64

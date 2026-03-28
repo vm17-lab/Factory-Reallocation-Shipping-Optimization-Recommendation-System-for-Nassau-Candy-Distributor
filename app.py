@@ -300,8 +300,8 @@ def style_fig(fig, title=""):
 # ─── Load Data & Model ────────────────────────────────────────────────────────
 @st.cache_resource
 def load_resources():
-    model = joblib.load("C:/Users/vincy/Desktop/Unified Mentor Internship/Project 1/data_scaler.pkl.gz")
-    df = pd.read_csv('C:/Users/vincy/Desktop/Unified Mentor Internship/Project 1/NFD_Cleand.csv')
+    model = joblib.load("data_scaler.pkl.gz")
+    df = pd.read_csv('NFD_Cleand.csv')
     return model, df
 
 

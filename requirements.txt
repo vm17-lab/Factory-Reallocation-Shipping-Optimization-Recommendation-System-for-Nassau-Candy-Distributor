@@ -1,0 +1,12 @@
+streamlit
+pandas
+plotly
+matplotlib
+joblib
+numpy
+math
+os
+sklearn
+seaborn
+plotly
+base64
